@@ -11,7 +11,7 @@ const Card = () => {
         <div className="w-full space-y-7 mt-4">
             <div className="sm:flex  justify-between mb-10">
                 <p className=" text-2xl font-bold">AceCoin<span className="font-light">Pay</span></p>
-                <div className="sm:flex inline-block mt-2 sm:mt-0 gap-1 before:absolute before:content-[':'] before:font-extrabold before:text-black before:left-[calc(50%-3px)] before:top-[calc((100%-24px)/2)] relative text-white">
+                <div className="sm:flex inline-flex mt-2 sm:mt-0 gap-1 before:absolute before:content-[':'] before:font-extrabold before:text-black before:left-[calc(50%-3px)] before:top-[calc((100%-24px)/2)] relative text-white">
                     <span className="p-2 bg-primary rounded-[4px]">0</span>
                     <span className="p-2 bg-primary rounded-[4px]">1</span>
                     <span className="ml-3 p-2 bg-primary rounded-[4px]">1</span>

@@ -1,6 +1,6 @@
 import icon from './assets/pngegg.png'
 import emv from './assets/pngegg(1).png'
-import ms from './assets/pngegg(2).png'
+import ms from './assets/kisspng-mastercard-credit-card-visa-payment-service-mastercard-5ac3fae719d0c6.8261643015227931911058.png'
 
 
 const MCard = () => {
@@ -12,9 +12,13 @@ const MCard = () => {
         <div className='space-y-2'>
             <p className='text-sm font-medium'>Jonathan Micheal</p>
             <p className='font-semibold text-lg'><span className='font-extrabold mr-2 tracking-widest'>····</span> 3456</p>
-            <div className='flex justify-between'>
+            <div className='flex justify-between items-center'>
                 <p className='text-md font-semibold'>9/22</p>
-                <img className='object-contain w-20' width={100} src={ms} alt="" />
+                <div >
+                    <img className='object-cover' width={40} height={40} src={ms} alt="" />
+                    <p className='text-[7px] font-extrabold'>mastercard</p>
+                </div>
+                
             </div>
         </div>
     </div> );
